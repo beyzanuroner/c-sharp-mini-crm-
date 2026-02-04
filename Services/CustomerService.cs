@@ -79,7 +79,7 @@ namespace MiniCrm.Services
 
         // delete
 
-        public bool delete(int id)
+        public bool Delete(int id)
         {
             var customer = GetById(id);
 
